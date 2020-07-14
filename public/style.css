@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: linear-gradient(#da4d79, #1D2671);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/* Layout */
+
+header {
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.input {
+    margin: 40px 0;
+    padding: 5px;
+    height: 30px;
+    border-radius: 5px;
+    color: #1D2671;
+}
+
+/* Module */
+
+button {
+    width: 30px;
+    height: 30px;
+    color: #1D2671;
+    border-radius: 5px;
+}
+
+.degree-section h2 {
+    font-size: 40px;
+    margin: 15px;
+}
+
+.temperature-description p {
+    margin: 5px;
+}
+
+ /* State */
+
+ button:hover {
+    background:#da4d79;
+ }

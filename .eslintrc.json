@@ -1,0 +1,23 @@
+{
+    "env": {
+        "browser": true,
+        "es2020": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 11
+    },
+    "rules": {
+        "semi": [2, "always"],
+        "no-console": 0,
+        "indent": [
+            "error",
+            2,
+            {
+                "SwitchCase" : 1
+            }
+        ]
+    }
+}
