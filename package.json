@@ -26,6 +26,6 @@
     "eslint-plugin-standard": "^4.0.1",
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
-    "nodemon": "^1.19.4"
+    "nodemon": "^2.0.4"
   }
 }
